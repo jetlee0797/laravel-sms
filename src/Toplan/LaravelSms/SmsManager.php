@@ -115,7 +115,7 @@ class SmsManager
             $input = null;
         }
         if (is_array($input)) {
-            $this->input = array_merge($this->input, $input);
+            $this->input = array_merge($this->input,$input);
         }
 
         $rules = [];
